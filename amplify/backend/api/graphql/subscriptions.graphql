@@ -1,0 +1,17 @@
+# this is an auto generated file. This will be overwritten
+subscription PostMsgSub($room: String!) {
+  postMsgSub(room: $room) {
+    msgId
+    room
+    upDate
+    from
+    msg
+    count
+  }
+}
+subscription AsignUserSub($user: String!) {
+  asignUserSub(user: $user) {
+    user
+    room
+  }
+}

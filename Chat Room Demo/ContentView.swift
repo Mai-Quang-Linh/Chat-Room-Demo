@@ -2,15 +2,31 @@
 //  ContentView.swift
 //  Chat Room Demo
 //
-//  Created by USER on 2021/11/07.
+//  Created by Mai Quang Linh on 2021/11/07.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var session : SessionManager
+    @EnvironmentObject var graphQL : GraphQLManager
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        switch session.authState{
+            case .login:
+            LoginView(errors: session.authError)
+                .environmentObject(session)
+                .environmentObject(graphQL)
+            case .signup:
+                SignUpView(errors: session.authError)
+                .environmentObject(session)
+                .environmentObject(graphQL)
+            case .session(let user):
+                ChatRoomView(user: user)
+                .environmentObject(session)
+                .environmentObject(graphQL)
+        }
     }
 }
 

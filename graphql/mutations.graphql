@@ -1,0 +1,20 @@
+# this is an auto generated file. This will be overwritten
+mutation PostMsg($msgId: Int!, $room: String!, $msg: String!) {
+  postMsg(msgId: $msgId, room: $room, msg: $msg) {
+    msgId
+    room
+    upDate
+    from
+    msg
+    count
+  }
+}
+mutation CreateRoom($room: String!) {
+  createRoom(room: $room)
+}
+mutation AsignUser($user: String!, $room: String!) {
+  asignUser(user: $user, room: $room) {
+    user
+    room
+  }
+}

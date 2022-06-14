@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49164B9523452B34AD2F113C /* Pods_Chat_Room_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269901A6267F7A681D9677CC /* Pods_Chat_Room_Demo.framework */; };
+		CE1A3BD9277DA34F00AAD596 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BD8277DA34F00AAD596 /* LoginView.swift */; };
+		CE1C231E2782914F008A8B14 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C231D2782914F008A8B14 /* SessionManager.swift */; };
+		CE1C2320278296C4008A8B14 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C231F278296C4008A8B14 /* SignUpView.swift */; };
+		CE1C2322278296E3008A8B14 /* RoomSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C2321278296E3008A8B14 /* RoomSelectView.swift */; };
+		CE1C2324278296F7008A8B14 /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C2323278296F7008A8B14 /* ChatRoomView.swift */; };
+		CE1C232B2782D835008A8B14 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = CE1C23292782D835008A8B14 /* amplifyconfiguration.json */; };
+		CE1C232C2782D835008A8B14 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = CE1C232A2782D835008A8B14 /* awsconfiguration.json */; };
+		CE1C232E27830C4A008A8B14 /* graphql in Resources */ = {isa = PBXBuildFile; fileRef = CE1C232D27830C4A008A8B14 /* graphql */; };
+		CE1C2332278319B0008A8B14 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C2331278319B0008A8B14 /* API.swift */; };
+		CE1C23342783D071008A8B14 /* GraphQLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C23332783D071008A8B14 /* GraphQLManager.swift */; };
+		CE1C23362784045B008A8B14 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C23352784045B008A8B14 /* ChatView.swift */; };
 		CE9F2C2527379DAE00C8C0DE /* Chat_Room_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F2C2427379DAE00C8C0DE /* Chat_Room_DemoApp.swift */; };
 		CE9F2C2727379DAE00C8C0DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F2C2627379DAE00C8C0DE /* ContentView.swift */; };
 		CE9F2C2927379DAF00C8C0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9F2C2827379DAF00C8C0DE /* Assets.xcassets */; };
@@ -14,6 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		269901A6267F7A681D9677CC /* Pods_Chat_Room_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_Room_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE870FA11D3674D60A05F79 /* Pods-Chat Room Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Room Demo.debug.xcconfig"; path = "Target Support Files/Pods-Chat Room Demo/Pods-Chat Room Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B014A62AD55258D76A07762D /* Pods-Chat Room Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Room Demo.release.xcconfig"; path = "Target Support Files/Pods-Chat Room Demo/Pods-Chat Room Demo.release.xcconfig"; sourceTree = "<group>"; };
+		CE1A3BD8277DA34F00AAD596 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CE1C231D2782914F008A8B14 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		CE1C231F278296C4008A8B14 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CE1C2321278296E3008A8B14 /* RoomSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSelectView.swift; sourceTree = "<group>"; };
+		CE1C2323278296F7008A8B14 /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
+		CE1C23292782D835008A8B14 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		CE1C232A2782D835008A8B14 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		CE1C232D27830C4A008A8B14 /* graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = graphql; sourceTree = SOURCE_ROOT; };
+		CE1C2331278319B0008A8B14 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CE1C23332783D071008A8B14 /* GraphQLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLManager.swift; sourceTree = "<group>"; };
+		CE1C23352784045B008A8B14 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		CE9F2C2127379DAE00C8C0DE /* Chat Room Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat Room Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9F2C2427379DAE00C8C0DE /* Chat_Room_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_Room_DemoApp.swift; sourceTree = "<group>"; };
 		CE9F2C2627379DAE00C8C0DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,17 +52,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49164B9523452B34AD2F113C /* Pods_Chat_Room_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B29CB30F96B95AB69382466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				269901A6267F7A681D9677CC /* Pods_Chat_Room_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1A3BD7277DA2AA00AAD596 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F2C2627379DAE00C8C0DE /* ContentView.swift */,
+				CE1C2321278296E3008A8B14 /* RoomSelectView.swift */,
+				CE1A3BD8277DA34F00AAD596 /* LoginView.swift */,
+				CE1C231F278296C4008A8B14 /* SignUpView.swift */,
+				CE1C2323278296F7008A8B14 /* ChatRoomView.swift */,
+				CE1C23352784045B008A8B14 /* ChatView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CE1C231C2782912B008A8B14 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				CE1C2331278319B0008A8B14 /* API.swift */,
+				CE1C231D2782914F008A8B14 /* SessionManager.swift */,
+				CE1C23332783D071008A8B14 /* GraphQLManager.swift */,
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
 		CE9F2C1827379DAE00C8C0DE = {
 			isa = PBXGroup;
 			children = (
 				CE9F2C2327379DAE00C8C0DE /* Chat Room Demo */,
 				CE9F2C2227379DAE00C8C0DE /* Products */,
+				FAAF34BA94E05A69CE9D7B3A /* Pods */,
+				8B29CB30F96B95AB69382466 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +111,12 @@
 		CE9F2C2327379DAE00C8C0DE /* Chat Room Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CE1C232D27830C4A008A8B14 /* graphql */,
+				CE1C23292782D835008A8B14 /* amplifyconfiguration.json */,
+				CE1C232A2782D835008A8B14 /* awsconfiguration.json */,
+				CE1C231C2782912B008A8B14 /* manager */,
+				CE1A3BD7277DA2AA00AAD596 /* view */,
 				CE9F2C2427379DAE00C8C0DE /* Chat_Room_DemoApp.swift */,
-				CE9F2C2627379DAE00C8C0DE /* ContentView.swift */,
 				CE9F2C2827379DAF00C8C0DE /* Assets.xcassets */,
 				CE9F2C2A27379DAF00C8C0DE /* Preview Content */,
 			);
@@ -67,6 +131,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FAAF34BA94E05A69CE9D7B3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE870FA11D3674D60A05F79 /* Pods-Chat Room Demo.debug.xcconfig */,
+				B014A62AD55258D76A07762D /* Pods-Chat Room Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9F2C2F27379DAF00C8C0DE /* Build configuration list for PBXNativeTarget "Chat Room Demo" */;
 			buildPhases = (
+				B929A640E3C97781B61D5738 /* [CP] Check Pods Manifest.lock */,
 				CE9F2C1D27379DAE00C8C0DE /* Sources */,
 				CE9F2C1E27379DAE00C8C0DE /* Frameworks */,
 				CE9F2C1F27379DAE00C8C0DE /* Resources */,
+				642403642FF456978D01AB2B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,19 +200,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1C232C2782D835008A8B14 /* awsconfiguration.json in Resources */,
 				CE9F2C2C27379DAF00C8C0DE /* Preview Assets.xcassets in Resources */,
+				CE1C232E27830C4A008A8B14 /* graphql in Resources */,
+				CE1C232B2782D835008A8B14 /* amplifyconfiguration.json in Resources */,
 				CE9F2C2927379DAF00C8C0DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		642403642FF456978D01AB2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chat Room Demo/Pods-Chat Room Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chat Room Demo/Pods-Chat Room Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chat Room Demo/Pods-Chat Room Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B929A640E3C97781B61D5738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chat Room Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE9F2C1D27379DAE00C8C0DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1A3BD9277DA34F00AAD596 /* LoginView.swift in Sources */,
+				CE1C2322278296E3008A8B14 /* RoomSelectView.swift in Sources */,
+				CE1C23362784045B008A8B14 /* ChatView.swift in Sources */,
 				CE9F2C2727379DAE00C8C0DE /* ContentView.swift in Sources */,
+				CE1C2332278319B0008A8B14 /* API.swift in Sources */,
+				CE1C231E2782914F008A8B14 /* SessionManager.swift in Sources */,
+				CE1C2324278296F7008A8B14 /* ChatRoomView.swift in Sources */,
+				CE1C2320278296C4008A8B14 /* SignUpView.swift in Sources */,
+				CE1C23342783D071008A8B14 /* GraphQLManager.swift in Sources */,
 				CE9F2C2527379DAE00C8C0DE /* Chat_Room_DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +391,7 @@
 		};
 		CE9F2C3027379DAF00C8C0DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE870FA11D3674D60A05F79 /* Pods-Chat Room Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +420,7 @@
 		};
 		CE9F2C3127379DAF00C8C0DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B014A62AD55258D76A07762D /* Pods-Chat Room Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

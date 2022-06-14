@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "chatroomdemo277137ea": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

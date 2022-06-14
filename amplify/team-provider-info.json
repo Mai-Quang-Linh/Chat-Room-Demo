@@ -1,0 +1,51 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatroomdemo-dev-202515-authRole",
+      "UnauthRoleArn": "arn:aws:iam::536036503690:role/amplify-chatroomdemo-dev-202515-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::536036503690:role/amplify-chatroomdemo-dev-202515-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-chatroomdemo-dev-202515-deployment",
+      "UnauthRoleName": "amplify-chatroomdemo-dev-202515-unauthRole",
+      "StackName": "amplify-chatroomdemo-dev-202515",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:536036503690:stack/amplify-chatroomdemo-dev-202515/2b654a60-6963-11ec-aa76-06d5b63015d5",
+      "AmplifyAppId": "d3uunmxzsxm7iq"
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatroomdemo-prod-191519-authRole",
+      "UnauthRoleArn": "arn:aws:iam::536036503690:role/amplify-chatroomdemo-prod-191519-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::536036503690:role/amplify-chatroomdemo-prod-191519-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-chatroomdemo-prod-191519-deployment",
+      "UnauthRoleName": "amplify-chatroomdemo-prod-191519-unauthRole",
+      "StackName": "amplify-chatroomdemo-prod-191519",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:536036503690:stack/amplify-chatroomdemo-prod-191519/0e7b3f40-6c7e-11ec-b113-066265f25571",
+      "AmplifyAppId": "d3uunmxzsxm7iq"
+    }
+  },
+  "pro": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatroomdemo-pro-194111-authRole",
+      "UnauthRoleArn": "arn:aws:iam::273885412602:role/amplify-chatroomdemo-pro-194111-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::273885412602:role/amplify-chatroomdemo-pro-194111-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-chatroomdemo-pro-194111-deployment",
+      "UnauthRoleName": "amplify-chatroomdemo-pro-194111-unauthRole",
+      "StackName": "amplify-chatroomdemo-pro-194111",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:273885412602:stack/amplify-chatroomdemo-pro-194111/ad3fbfe0-6c81-11ec-ae76-0e71e619494f",
+      "AmplifyAppId": "d3jz0mvd7gr4b4"
+    },
+    "categories": {
+      "auth": {
+        "chatroomdemo277137ea": {
+          "userPoolId": "ap-northeast-1_OhIeo4hSd",
+          "userPoolName": "ChatRoomUser-prod",
+          "webClientId": "3uui55m4alpitr0ge4rbgbak3k",
+          "nativeClientId": "3uui55m4alpitr0ge4rbgbak3k"
+        }
+      }
+    }
+  }
+}

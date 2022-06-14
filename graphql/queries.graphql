@@ -1,0 +1,33 @@
+# this is an auto generated file. This will be overwritten
+query GetPage($room: String!, $token: String!) {
+  getPage(room: $room, token: $token) {
+    items {
+      msgId
+      room
+      upDate
+      from
+      msg
+      count
+    }
+    scannedCount
+    nextToken
+  }
+}
+query GetMsg($msgId: Int!, $room: String!) {
+  getMsg(msgId: $msgId, room: $room) {
+    msgId
+    room
+    upDate
+    from
+    msg
+    count
+  }
+}
+query GetRooms {
+  getRooms {
+    items {
+      user
+      room
+    }
+  }
+}
